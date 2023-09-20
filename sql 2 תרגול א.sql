@@ -64,7 +64,7 @@ create table u.Courses (
 course_id serial Primary Key,
 course_name text not null,
 department text,
-credits int
+credits numeric
 )
 
 insert into u.courses(course_name, department, credits )
